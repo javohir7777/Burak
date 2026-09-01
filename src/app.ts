@@ -10,7 +10,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(morgan(MORGAN_FORMAT ));
+app.use(morgan(MORGAN_FORMAT));
 
 // 2-SESSIONS
 
@@ -19,7 +19,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("views engine", "ejs");
 
 // 4-ROUTERS
-app.use("/admin", routerAdmin); // EJS
-app.use("/", router); // REACT
+app.use("/admin", routerAdmin); // SSR
+app.use("/", router); // SPA
 
 export default app;
