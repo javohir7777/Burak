@@ -1,4 +1,4 @@
-/* Project Standards
+/* Project Standards:
       -Login standards
       -Naming standards
         function, method, variables => CAMEL
@@ -8,7 +8,7 @@
       -Eror handling
  */
 
-/* 
+/* Request:
       Traditinal Api
       Rest Api
       GraphQL Api
@@ -23,4 +23,10 @@
 /*
       request join
       self destroy
+*/
+
+/* Validation 
+      Frontend validation
+      Backend validation
+      Database validation
 */
