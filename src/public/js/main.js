@@ -1,1 +1,1 @@
-console.log("FRONTEND JAVASCRPT STARTS");
+console.log("Basic frontend javascript file");
